@@ -1,0 +1,109 @@
+/*-----------------------------------------------about.html-----------------------------------------------*/
+.about1 {
+	text-align: justify;
+	line-height: 2;
+	font-size: 20px;
+	margin: 0;
+	height: 100%;
+	font-weight: 300;
+	color: inherit;
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-left: 275px;
+	margin-right: 275px;
+}
+.about2 {
+	position: relative;
+	text-align: justify;
+	line-height: 2;
+	font-size: 20px;
+	margin: 0;
+	height: 100%;
+	font-weight: 300;
+	color: inherit;
+	padding-left: 100px;
+	padding-right: 400px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-left: 640px;
+}
+
+/*-----------------About Images-----------------*/
+.aboutimages {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.abtimg {
+	position: relative;
+	max-height: 250px;
+	max-width: 350px;
+	overflow: hidden;
+	opacity: 1;
+	display: block;
+	max-width: 100%;
+	transition: .5s ease;
+	backface-visibility: hidden;
+	cursor: pointer;
+	border-radius: 10px;
+}
+
+.paragsqsh {
+	margin-top: -240px;
+	margin-right: 355px;
+}
+
+.abtimg1 {
+	padding-left: 373px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.abtimg2 {
+	padding-left: 489px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.abtimg3 {
+	padding-left: 1087px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+
+
+
+
+.aboutoverlay {
+	position: relative;
+	width: 100%;
+	background-color: white;
+	border-radius: 10px;
+	display: flex !important;
+}
+.middle3 {
+	transition: .5s ease;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	text-align: center;
+	opacity: 0;
+	margin-bottom: 150px;
+}
+.aboutoverlay:hover .abtimg {
+	opacity: 0.3;
+}
+.aboutoverlay:hover .middle3 {
+	opacity: 1;
+}
+.about-img-desc-sm {
+	position: relative;
+	top: -15px;
+	left: -63px;
+	color: rgb(133, 133, 133);
+	font-weight: 550;
+	font-size: 20px;
+	text-align: center;
+	cursor: pointer;
+}
